@@ -12,7 +12,7 @@ You need to ssh into the running container in order to send curl requests or dis
 # Running locally:
   - Navigate to the parent directory
   - pip (or pip3) install requirements.txt
-  - python (or python3) app/app.py
+  - python (or python3) -m pytest app/app.py
   
  # Sending get requests
  You will be prompted for the master directory.  Use an absolute path.
