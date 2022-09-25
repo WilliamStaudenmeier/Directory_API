@@ -3,6 +3,8 @@ Simple flask api to list directories interactively
 
 Runs on Python 3.7 or greater
 
+For it to work on a Mac with the M1 processor, you will have to change permissions for protected folders
+
 # Using docker:
   - docker build --tag flask-director .
   - docker run -ti --name flask-director -v /:<path to app.py>  -p 127.0.0.1:5000:5000 flask-director
