@@ -18,6 +18,8 @@ You need to ssh into the running container in order to send curl requests or dis
   
  # Sending get requests
  You will be prompted for the master directory.  Use an absolute path.
+ From another terminal, use curl 127.0.0.1:5000/, 127.0.0.1:5000/path, or 127.0.0.1:5000/path/subpath
+ 
   - curl http://127.0.0.1:5000/
   - http://127.0.0.1:5000/banana
   - http://127.0.0.1:5000/banana/peel
@@ -25,8 +27,6 @@ You need to ssh into the running container in order to send curl requests or dis
  # Creating directories
  Same as sending get requests but with a POST
  - curl -X POST http://127.0.0.1:5000/banana
- 
- From another terminal, use curl 127.0.0.1:5000/, 127.0.0.1:5000/path, or 127.0.0.1:5000/path/subpath
  
  # Running unit_tests
   - Navigate to the parent directory
