@@ -20,7 +20,7 @@ You need to ssh into the running container in order to send curl requests or dis
   - http://127.0.0.1:5000/banana
   - http://127.0.0.1:5000/banana/peel
  
- #Creating directories
+ # Creating directories
  Same as sending get requests but with a POST
  - curl -X POST http://127.0.0.1:5000/banana
  
