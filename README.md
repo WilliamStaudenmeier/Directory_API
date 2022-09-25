@@ -21,8 +21,8 @@ You need to ssh into the running container in order to send curl requests or dis
  From another terminal, use curl 127.0.0.1:5000/, 127.0.0.1:5000/path, or 127.0.0.1:5000/path/subpath
  
   - curl http://127.0.0.1:5000/
-  - http://127.0.0.1:5000/banana
-  - http://127.0.0.1:5000/banana/peel
+  - curl http://127.0.0.1:5000/banana
+  - curl http://127.0.0.1:5000/banana/peel
  
  # Creating directories
  Same as sending get requests but with a POST
