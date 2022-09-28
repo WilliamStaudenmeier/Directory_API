@@ -1,5 +1,5 @@
-# directory-api
-Simple flask api to list directories interactively
+# Directory-API
+Simple Flask API to GET and POST user directories interactively
 
 Runs on Python 3.7 or greater
 
